@@ -1,0 +1,57 @@
+@import url('../../styles/nullstyle.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-image: url(../../images/background.jpg);
+    font-family: Open-sans, sans-serif;
+}
+.content{
+    background-color: rgba(252, 230, 218, 56%);
+    margin: 5% 10% 3% ;
+}
+.content_wrapper{
+    padding: 2%;
+}
+.content_title{
+    font-size: 30px;
+	padding-bottom: 2%;
+	padding-top: 1%;
+}
+.accordion {
+    background-color: #E9B192;
+    color: #000;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.active, .accordion:hover {
+    background-color: #ba7a54;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+  	font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+	margin-bottom: 1%;
+  	color: #212121;
+    background-color: #ECC4AD;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
