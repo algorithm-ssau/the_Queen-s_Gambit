@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MainPage from "./components/main-page.component";
+import MainPage from "./components/MainPage/main-page.component";
 import Episodes from "./components/Episodes/episodes.component";
 import Characters from "./components/characters.component";
 import Actors from "./components/actors.component";

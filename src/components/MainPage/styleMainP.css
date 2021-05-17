@@ -1,7 +1,7 @@
-@import url('../styles/nullstyle.css');
+@import url('../../styles/nullstyle.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
-    background-image: url(../images/background.jpg);
+    background-image: url(../../images/background.jpg);
     font-family: Open-sans;
 }
 .content{
