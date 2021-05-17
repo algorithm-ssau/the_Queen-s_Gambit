@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "./episodes_script.js";
-import script from "./episodes_style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+//import "./episodes_script.js";
+import "./episodes_style.css"
+import script from "./episodes";
 import "../../styles/styleCap.css";
 
 export default class Episodes extends Component {
     render() {
         return (
             <div>
-                <script src = {script}></script>
+                <script src={script}></script>
                 <nav class="menu">
                     <div class="wrapCap"><label class="labCap">The Gambit Queen Fan</label></div>
 
@@ -22,24 +24,29 @@ export default class Episodes extends Component {
                     </ul>
                 </nav>
 
-                <div class="content">
-                    <div class="content_wrapper">
-                        <div class="content_title">
+                <div className="content">
+                    <div className="content_wrapper">
+                        <div className="content_title">
                             <h2>Список серий</h2>
                         </div>
-                        <button class="accordion">Серия 1</button>
-                        <div class="panel">
-                            <p>Описание серии 1</p>
-                        </div>
+                            <div className="panel_wrapper">
+                                <div className="panel">
+                                    <p className="p1">Серия 1</p>
+                                    <p className="p2">Описание серии 1</p>
+                                </div>
+                            </div>
 
-                        <button class="accordion">Серия 2</button>
-                        <div class="panel">
-                            <p>Описание серии 2</p>
+                            <div className="panel_wrapper">
+                                <div className="panel">
+                                    <p className="p1">Серия 1</p>
+                                    <p className="p2">Описание серии 1</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
+
         )
     }
 }
+//export default Episodes;

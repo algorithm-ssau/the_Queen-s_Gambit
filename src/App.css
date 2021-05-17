@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.menu {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+.labCap {
+  color: #f7f3ed;
+  font-family: 'Impact', fantasy;
+  font-size: 30pt;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+.wrapCap{ 
+    height: 60px;
+    padding-top: 1%;
+    background: #ba7a54;
+    border-bottom: solid 1px azure;
+}
+.menu ul {
+  width: 100%; 
+  display: flex;
+  background: #ba7a54;
+}
+.cap a {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #f7f3ed;
+  font-family: 'Open Sans', serif;  
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.cap {
+  display: flex;
+  height: 50px;
+  background: #ba7a54;
+  width: 30%;
+}
+.cap.pad{
+  width: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.cap a:hover {background: #915e40}
+
+
