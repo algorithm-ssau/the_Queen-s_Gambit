@@ -1,0 +1,25 @@
+@import url('../styles/nullstyle.css');
+body{
+    font-size: 15pt; 
+    background-color: #42372b; 
+    background-image: url(../images/background.jpg);
+      font-family: Open-sans;
+    -webkit-background-size: 100%;
+    color: #333; 
+  }
+.wrapper {
+    max-width: 90%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #fff4e2ee;    
+  }
+.caption-border {
+  width: 400px;
+  margin: 50px ;
+  border: 5px solid #b88e1b;
+  background: rgb(255, 231, 200);
+  padding: 10px;
+}
