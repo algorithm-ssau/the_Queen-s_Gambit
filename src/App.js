@@ -5,7 +5,7 @@ import MainPage from "./components/main-page.component";
 import Episodes from "./components/Episodes/episodes.component";
 import Characters from "./components/characters.component";
 import Actors from "./components/actors.component";
-import Info from "./components/info.component";
+import Info from "./components/Info/info.component";
 import "./App.css";
 
 class App extends Component {
