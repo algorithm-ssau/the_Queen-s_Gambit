@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "./info_style.css";
+import script from  "./info_style.css";
 import "../../styles/styleCap.css";
 
 export default class Info extends Component {

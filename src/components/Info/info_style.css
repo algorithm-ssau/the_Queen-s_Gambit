@@ -1,11 +1,8 @@
-@import url('../styles/nullstyle.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
-    font-size: 15pt; 
-    background-color: #42372b; 
-    background-image: url(../images/background.jpg);
-      font-family: Open-sans;
-    -webkit-background-size: 100%;
-    color: #333; 
+  background-image: url(../../images/background.jpg);
+  font-family: Open-sans, sans-serif;
   }
 .wrapper {
     max-width: 90%;
