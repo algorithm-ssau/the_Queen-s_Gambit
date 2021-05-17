@@ -22,7 +22,7 @@ export default class MainPage extends Component {
             <div class="content">
                 <div class="content__wrapper">
                     <label>The Gambit Queen Fan</label>
-                    <img href="#" src="images/MainPicture.jpg" width="270" height="480" align = "right" ></img> 
+                    <img href="#" src="../../images/MainPicture.jpg" width="270" height="480" align = "right" ></img> 
                     <p></p>
                     <p>«Ход королевы» - один из самых популярных сериалов в 2021 году. Это американский драматический мини-сериал, основанный на одноимённом романе Уолтера Тевиса и созданный по заказу Netflix. </p>  
                     <p> «Ход королевы» получил положительные отзывы в шахматном сообществе и, как считается, способствовал возрождению общественного интереса к игре. </p> 
