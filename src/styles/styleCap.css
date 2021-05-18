@@ -10,11 +10,11 @@
   font-family: 'Impact', fantasy;
   font-size: 30pt;
   margin-left: 5%;
-  /*padding-top: 5%;*/
+  margin-top: -5.5%;
 }
 .wrapCap{ 
     height: 60px;
-    padding-top: 1%;
+    margin-top: 0%;
     background: #ba7a54;
     border-bottom: solid 1px azure;
 }
