@@ -12,7 +12,7 @@ router.route('/add').post((req, res) => {
     const nameRU = req.body.nameRU;
     const biography = req.body.biography;
 
-    const newInfo = new Actor({
+    const newInfo = new Info({
         name,
         nameRU,
         biography
