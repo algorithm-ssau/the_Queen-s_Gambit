@@ -12,7 +12,7 @@ export default class Episodes extends Component {
             <div>
                 
                 <nav class="menu">
-                    <div class="wrapCap"><label class="labCap">The Gambit Queen Fan</label></div>
+                <div class="wrapCap"><label class="labCap">The Queen’s Gambit Fan</label></div>
 
                     <ul>
                         <li class="cap pad"><Link to="/"><svg width="40" height="40" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
