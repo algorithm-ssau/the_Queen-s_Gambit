@@ -23,8 +23,8 @@ export default class Episodes extends Component {
         this.state = {episodes:[]};
     }
 
-    componentWillReceiveProps(){
-        axios.get("http://localhost:5000/episodes/")
+    componentDidMount(){
+        axios.get(`http://localhost:5000/episodes/`)
         .then(response => {
             console.log(response);
             this.setState({episodes:response.data});
@@ -33,10 +33,21 @@ export default class Episodes extends Component {
             console.log(error);
         })
     }
+    /*componentDidMount(){
+        axios.get(`http://localhost:5000/:episodes/`, {method: 'get'}).then(res => res.json()).then(resEpisodes => {
+            this.setState({
+                episodes: resEpisodes
+            })
+        })
+   }*/
 
     episodesList(){
-        return this.state.episodes.map(function(currentEpisode, i){
-            return <Episode episode={currentEpisode} key = {i}/>
+        return this.state.episodes.map(function(episode, i){
+            return <tr>
+            <td>{episode.number}</td>
+            <td>{episode.name}</td>
+            <td>{episode.description}</td>
+        </tr>
         });
     }
 
@@ -60,7 +71,7 @@ export default class Episodes extends Component {
                         <div className="content_title">
                             <h2>Список серий</h2>
                         </div>
-                        <table className="table">
+                        <table className="table" style={{paddingLeft: 5 }}>
                             <thead>
                                 <tr>
                                     <th>Номер серии</th>
