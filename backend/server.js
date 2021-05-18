@@ -21,13 +21,13 @@ connection.once('open', () => {
 })
 
 const episodesRouter = require('./routers/episodes');
-/*const charactersRouter = require('./routers/characters');
-const actorsRouter = require('./routers/actors');*/
+const infoRouter = require('./routers/info');
+/*const actorsRouter = require('./routers/actors');*/
 
 /*app.use('/', mainRouter);
 app.use('/actors', actorsRouter);
-app.use('/characters', charactersRouter);
-app.use('/info', infoRouter);*/
+app.use('/characters', charactersRouter);*/
+app.use('/info', infoRouter);
 app.use('/episodes', episodesRouter);
 
 app.listen(PORT, ()=>{
