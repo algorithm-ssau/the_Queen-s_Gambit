@@ -1,0 +1,54 @@
+@import url('nullstyle.css');
+body {
+    font-size: 15pt;
+    /* Размер основного шрифта в пунктах  */
+    background-color: #42372b;
+    /* Цвет фона веб-страницы */
+    background-image: url(../images/background.jpg);
+    font-family: Open-sans;
+    -webkit-background-size: 100%;
+    color: #333;
+    /* Цвет основного текста */
+}
+
+div.tbl {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(176, 140, 99, 0.7);
+}
+
+table {
+    margin-left: 4%;
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    border-top: 4px solid #BDB76B;
+    border-bottom: 1px solid white;
+    color: #039;
+    padding: 8px;
+}
+
+td {
+    background: rgba(176, 140, 99, 0.8);
+    color: #669;
+    padding: 8px;
+}
+
+link {
+    color: #1a1513;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    color: #1a1513;
+    font-family: 'Impact', fantasy;
+    font-size: 25pt;
+    margin-left: 7%;
+}
