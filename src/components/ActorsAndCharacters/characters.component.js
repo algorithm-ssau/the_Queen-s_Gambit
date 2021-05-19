@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./ac_style.css"
-
 import "../../styles/styleCap.css";
+import ElizabethHarmon from "../../images/ElizabethHarmon.jpg";
 
 export default class Characters extends Component {
     render() {
@@ -27,90 +27,90 @@ export default class Characters extends Component {
                         <tr>
                              <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "ElizabethHarmon" >
-                                         <img src = "../../images/ElizabethHarmon.jpg" width = "220" height = "190" alt = "Элизабет Хармон" > </img> 
+                                         <img src = {ElizabethHarmon} width = "220" height = "190" alt = "Элизабет Хармон" /> 
                                    </Link> 
-                                    <br> </br>
+                                    <br/>
                                     <p> <Link to = "/info" onclick = "setCh(this.name)" name = "ElizabethHarmon" > Элизабет Хармон </Link></p>
                               </td> 
                               <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "BennyWatts" >
-                                        < img src = "../../images/BennyWatts.jpg" width = "220" height = "190" alt = "Бенни Уоттс" > </img> 
+                                        < img src = "../../images/BennyWatts.jpg" width = "220" height = "190" alt = "Бенни Уоттс"/> 
                                    </Link> 
-                                   <br> </br> 
+                                   <br/> 
                                    <p > < Link to = "/info" onclick = "setCh(this.name)" name = "BennyWatts" > Бенни Уоттс </Link></p >
                               </td> 
                               <td>
                                     <Link to = "/info" onclick = "setCh(this.name)" name = "HarryBeltik" >
-                                         <img src = "../../images/HarryBeltik.jpg" width = "220" height = "190" alt = "Гарри Белтик" > </img> 
+                                         <img src = "../../images/HarryBeltik.jpg" width = "220" height = "190" alt = "Гарри Белтик"/> 
                                     </Link> 
-                                   <br> </br> 
+                                   <br/> 
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "HarryBeltik" > Гарри Белтик </Link></p>
                               </td> 
                               <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AlmaWhittle" >
-                                        <img src = "../../images/AlmaWhittle.jpg" width = "220" height = "190" alt = "Альма Уитл" > </img> 
+                                        <img src = "../../images/AlmaWhittle.jpg" width = "220" height = "190" alt = "Альма Уитл" /> 
                                    </Link> 
-                                   <br> </br> 
+                                   <br/> 
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "AlmaWhittle" > Альма Уитл </Link></p >
                               </td> 
                          </tr>  
                          <tr>
                               <td >
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "mrScheibel" >
-                                        <img src = "../../images/mrScheibel.jpg" width = "220" height = "190" alt = "мистер Шейбел" > </img> 
+                                        <img src = "../../images/mrScheibel.jpg" width = "220" height = "190" alt = "мистер Шейбел" /> 
                                    </Link> 
-                                   <br > </br> 
+                                   <br/> 
                                    <p > < Link to = "/info" onclick = "setCh(this.name)" name = "mrScheibel" > мистер Шейбел </Link></p >
                               </td> 
                               <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "Jolene" >
-                                        < img src = "../../images/Jolene.jpg" width = "220" height = "190" alt = "Джолин" > </img>
+                                        < img src = "../../images/Jolene.jpg" width = "220" height = "190" alt = "Джолин" />
                                     </Link>
-                                    <br > </br> 
+                                    <br/> 
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "Jolene" > Джолин </Link></p >
                               </td> 
                               <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "HelenDirdorrf" >
-                                        < img src = "../../images/HelenDirdorrf.jpg" width = "220" height = "190" alt = "Хелен Дирдоррф" > </img> 
+                                        < img src = "../../images/HelenDirdorrf.jpg" width = "220" height = "190" alt = "Хелен Дирдоррф" /> 
                                    </Link> 
-                                   <br> </br> 
+                                   <br/> 
                                    <p > < Link to = "/info" onclick = "setCh(this.name)" name = "HelenDirdorrf" > Хелен Дирдоррф </Link></p >
                               </td> 
                               <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AllstonWheatley" >
-                                         <img src = "../../images/AllstonWheatley.jpg" width = "220" height = "190" alt = "Олстон Уитли" > </img> 
+                                         <img src = "../../images/AllstonWheatley.jpg" width = "220" height = "190" alt = "Олстон Уитли" /> 
                                    </Link> 
-                                   <br> </br> 
+                                   <br/>  
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "AllstonWheatley" > Олстон Уитли </Link></p >
                                </td> 
                           </tr>  
                          <tr>
                               <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "Towns" >
-                                        <img src = "../../images/Towns.jpg" width = "220" height = "190" alt = "Д. Л. Таунс" > </img>
+                                        <img src = "../../images/Towns.jpg" width = "220" height = "190" alt = "Д. Л. Таунс" /> 
                                    </Link> 
-                                   <br> </br> 
+                                   <br/>
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "Towns" > Д.Л.Таунс </Link></p >
                               </td>  
                               <td >
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "VasilyBorgov" >
-                                        <img src = "../../images/VasilyBorgov.jpg" width = "220" height = "190" alt = "Василий Боргов" > </img> 
+                                        <img src = "../../images/VasilyBorgov.jpg" width = "220" height = "190" alt = "Василий Боргов" /> 
                                    </Link>
-                                   <br> </br> 
+                                   <br/> 
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "VasilyBorgov" > Василий Боргов </Link></p >
                               </td> 
                               <td >
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AliceHarmon" >
-                                        <img src = "../../images/AliceHarmon.jpg" width = "220"height = "190" alt = "Элис Хармон" > </img> 
+                                        <img src = "../../images/AliceHarmon.jpg" width = "220"height = "190" alt = "Элис Хармон" />
                                    </Link> 
-                                   <br > </br> 
+                                   <br/> 
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "AliceHarmon" > Элис Хармон </Link></p >
                               </td> 
                               <td >
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AnnettePacker" >
-                                        <img src = "../../images/AnnettePacker.jpg" width = "220" height = "190" alt = "Аннетт Пакер" > </img> 
+                                        <img src = "../../images/AnnettePacker.jpg" width = "220" height = "190" alt = "Аннетт Пакер" />  
                                    </Link> 
-                                   <br> </br> 
+                                   <br/>
                                    <p> <Link to = "/info" onclick = "setCh(this.name)" name = "AnnettePacker" > Аннетт Пакер </Link></p >
                               </td> 
                          </tr>  
@@ -123,6 +123,6 @@ export default class Characters extends Component {
                </div>
           </div>
 
-        )
+        );
     }
 }
