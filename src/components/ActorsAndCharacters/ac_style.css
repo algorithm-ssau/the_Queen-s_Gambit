@@ -4,7 +4,7 @@ body {
     /* Размер основного шрифта в пунктах  */
     background-color: #42372b;
     /* Цвет фона веб-страницы */
-    background-image: url(../images/background.jpg);
+    background-image: url(../../images/background.jpg);
     font-family: Open-sans;
     -webkit-background-size: 100%;
     color: #333;

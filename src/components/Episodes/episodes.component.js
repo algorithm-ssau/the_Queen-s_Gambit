@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./episodes_style.css"
 
 import "../../styles/styleCap.css";
-import axios from "axios";
+//import axios from "axios";
 
 const Episode = props => {
     <tr>
