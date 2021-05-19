@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import "./episodes_script.js";
-import "./episodes_style.css"
+import styles from "./episodes_style.css"
 
-import "../../styles/styleCap.css";
+import "./styleCap.css";
 import axios from "axios";
 
 const Episode = props => {
@@ -71,7 +71,7 @@ export default class Episodes extends Component {
                         <div className="content_title">
                             <h2>Список серий</h2>
                         </div>
-                        <table className="table" style={{paddingLeft: 5 }}>
+                        <table className="table table-striped">
                             <thead>
                                 <tr>
                                     <th>Номер серии</th>
