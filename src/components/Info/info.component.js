@@ -1,9 +1,44 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import script from  "./info_style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./info_style.css";
 import "../../styles/styleCap.css";
 
+import axios from "axios";
+
+const Info = props => {
+    <tr>
+        <td>{props.info.nameRU}</td>
+        <td>{props.info.biography}</td>
+    </tr>
+}
+
 export default class Info extends Component {
+    constructor(props){
+        super(props);
+
+        this.state = {info:[]};
+    }
+    componentDidMount(){
+        axios.get(`http://localhost:5000/info/`)
+        .then(response => {
+            console.log(response);
+            this.setState({info:response.data});
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+    }
+    infosList(){
+        return this.state.info.map(function(episode, i){
+            return 
+            <tr>
+                <td>{props.info.nameRU}</td>
+                <td>{props.info.biography}</td>
+            </tr>
+        });
+    }
+
     render() {
         return (
             <div>
@@ -27,7 +62,9 @@ export default class Info extends Component {
                                 <p><img src="images/example.png" alt="Актер/персонаж" width="220" height="190" class="caption-border"></img></p>
                             </td>
                             <td>
-                                <p>Биография</p>
+                            <tbody>
+                                {this.infosList()}
+                            </tbody>
                             </td>
                             </tr> 
                         </table>        
