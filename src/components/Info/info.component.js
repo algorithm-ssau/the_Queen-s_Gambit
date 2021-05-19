@@ -6,7 +6,7 @@ import "../../styles/styleCap.css";
 
 import axios from "axios";
 
-const Info = props => {
+const Infos = props => {
     <tr>
         <td>{props.info.nameRU}</td>
         <td>{props.info.biography}</td>
@@ -29,10 +29,10 @@ export default class Info extends Component {
             console.log(error);
         })
     }
+
     infosList(){
         return this.state.info.map(function(episode, i){
-            return 
-            <tr>
+            return <tr>
                 <td>{props.info.nameRU}</td>
                 <td>{props.info.biography}</td>
             </tr>
@@ -42,7 +42,6 @@ export default class Info extends Component {
     render() {
         return (
             <div>
-                <script src = {script}></script>
                 <nav class="menu">                  
                      <div class="wrapCap"><label class="labCap">The Queen’s Gambit Fan</label></div>
                     <ul>                        
