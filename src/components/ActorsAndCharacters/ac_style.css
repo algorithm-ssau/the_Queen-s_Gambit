@@ -33,10 +33,10 @@ th {
 td {
     background: rgba(176, 140, 99, 0.8);
     color: #669;
-    padding: 8px;
+    padding: 16px;
 }
 
-link {
+a {
     color: #1a1513;
     text-decoration: none;
     font-weight: bold;
@@ -49,6 +49,6 @@ p {
 label {
     color: #1a1513;
     font-family: 'Impact', fantasy;
-    font-size: 25pt;
+    font-size: 45pt;
     margin-left: 7%;
 }
