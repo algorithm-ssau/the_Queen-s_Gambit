@@ -2,7 +2,7 @@ const router = require("express").Router();
 let Info = require('../models/info.model');
 
 router.route('/').get((req, res) => {
-    Info.find()
+    Info.find(req.params.name)
         .then(info => res.json(info))
         .catch(err => res.status(400).json('Error: ' + err));
 });

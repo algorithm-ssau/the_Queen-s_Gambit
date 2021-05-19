@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import "./episodes_style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import "./episodes_script.js";
-import styles from "./episodes_style.css"
 
 import "./styleCap.css";
 import axios from "axios";
