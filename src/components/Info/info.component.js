@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./info_style.css";
 import "../../styles/styleCap.css";
 
+import ElizabethHarmon from "../../images/ElizabethHarmon.jpg";
+
 import axios from "axios";
 
 export default class Info extends Component {
@@ -25,15 +27,31 @@ export default class Info extends Component {
     infosList(){
         return this.state.info.map(function(info, i){
             return <tr>
-                <td>{info.nameRU}</td>
                 <td>{info.biography}</td>
             </tr>
         });
     }
 
+    namesList(){
+        return this.state.info.map(function(info, i){
+            return <tr>
+                <td>{info.nameRU}</td>
+            </tr>
+        });
+    }
+    start(){
+        window.name = localStorage.getItem('name');
+        document.getElementById("name").innerHTML = window.name;
+        localStorage.removeItem('name');
+    }
+
     render() {
+        let IMGname = this.namesList();
         return (
             <div>
+                <script>
+	                start();
+	            </script>
                 <nav class="menu">                  
                      <div class="wrapCap"><label class="labCap">The Queen’s Gambit Fan</label></div>
                     <ul>                        
@@ -44,24 +62,26 @@ export default class Info extends Component {
                         <li class="cap"><Link to="/actors">Актеры</Link></li>
                         <li class="cap"><Link to="/episodes">Серии</Link></li>
                     </ul>
-                </nav>
-
-                <div class="wrapper">
-                     <table>
-                          <tr>
-                            <td>
-                                <p><img src="images/example.png" alt="Актер/персонаж" width="220" height="190" class="caption-border"></img></p>
-                            </td>
-                            <td>
-                            <tbody>
-                                {this.infosList()}
-                            </tbody>
-                            </td>
+                </nav> 
+                <div className="content">
+                    <div className="content_wrapper"> 
+                        <div className="content_title">
+                            <h2  color = "black">{this.namesList()}</h2>
+                        </div>   
+                        <table >                                                        
+                            <tr>
+                                <td>  
+                                    <p><img src = {ElizabethHarmon} alt="Актер/персонаж"  class="caption-border"></img></p>
+                                </td>
+                                <td>
+                                    {this.infosList()}                               
+                                </td> 
                             </tr> 
-                        </table>        
+                    </table>
                     </div>
-            </div>
-            
-        )
+                </div>        
+                            
+            </div>           
+        );
     }
 }
