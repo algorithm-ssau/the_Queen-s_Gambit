@@ -12,14 +12,14 @@ body{
   background: rgb(255, 231, 200);
   padding: 10px;
 }
-.content{
+.content_inf{
   background-color: rgba(252, 230, 218, 0.911);
   margin: 5% 10% 3% ;
 }
-.content_wrapper{
+.content_wrapper_inf{
   padding: 2%;
 }
-.content_title{
+.content_title_inf{
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 2%;

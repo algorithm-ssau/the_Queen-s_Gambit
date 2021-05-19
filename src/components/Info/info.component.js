@@ -63,9 +63,9 @@ export default class Info extends Component {
                         <li class="cap"><Link to="/episodes">Серии</Link></li>
                     </ul>
                 </nav> 
-                <div className="content">
-                    <div className="content_wrapper"> 
-                        <div className="content_title">
+                <div className="content_inf">
+                    <div className="content_wrapper_inf"> 
+                        <div className="content_title_inf">
                             <h2  color = "black">{this.namesList()}</h2>
                         </div>   
                         <table >                                                        
