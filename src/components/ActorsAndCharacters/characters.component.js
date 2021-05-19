@@ -118,7 +118,7 @@ export default class Characters extends Component {
                     </table> 
                     <script >
                          function setCh(name) {
-                             localStorage.setItem('name', name)
+                             localStorage.setItem('name', window.name)
                          } 
                     </script> 
                </div>
