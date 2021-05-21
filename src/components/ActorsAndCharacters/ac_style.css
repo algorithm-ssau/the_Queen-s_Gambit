@@ -11,17 +11,17 @@ body {
     /* Цвет основного текста */
 }
 
-.div.tbl {
+.tbl div {
     margin-left: 10%;
     margin-right: 10%;
     background: rgba(176, 140, 99, 0.7);
 }
 
-.table {
-    margin-left: 4%;
+.tbl table {
+    margin-left: 12%;
 }
 
-.th {
+.tbl th {
     font-size: 13px;
     font-weight: normal;
     border-top: 4px solid #BDB76B;
@@ -30,25 +30,25 @@ body {
     padding: 8px;
 }
 
-.td {
+.tbl td {
     background: rgba(176, 140, 99, 0.8);
     color: #669;
     padding: 16px;
 }
 
-.a {
+.tbl a {
     color: #1a1513;
     text-decoration: none;
     font-weight: bold;
 }
 
-.p {
+.tbl p {
     text-align: center;
 }
 
-.label {
+.tbl label {
     color: #1a1513;
     font-family: 'Impact', fantasy;
     font-size: 45pt;
-    margin-left: 7%;
+    margin-left: 15%;
 }
