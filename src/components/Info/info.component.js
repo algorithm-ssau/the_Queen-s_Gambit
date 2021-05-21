@@ -38,14 +38,250 @@ export default class Info extends Component {
         this.state = {info:[]};
     }
     componentDidMount(){
-        axios.get(`http://localhost:5000/info/ElizabethHarmon`)
-        .then(response => {
-            console.log(response);
-            this.setState({info:response.data});
-        })
-        .catch((error) => {
-            console.log(error);
-        })
+        switch(window.name){
+            case "ElizabethHarmon":
+                axios.get(`http://localhost:5000/info/ElizabethHarmon`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "BennyWatts":
+                axios.get(`http://localhost:5000/info/BennyWatts`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "HarryBeltik":
+                axios.get(`http://localhost:5000/info/HarryBeltik`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "AlmaWhittle":
+                axios.get(`http://localhost:5000/info/AlmaWhittle`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "mrScheibel":
+                axios.get(`http://localhost:5000/info/mrScheibel`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case  "Jolene":
+                axios.get(`http://localhost:5000/info/Jolene`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "HelenDirdorrf":
+                axios.get(`http://localhost:5000/info/HelenDirdorrf`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "AllstonWheatley":
+                axios.get(`http://localhost:5000/info/AllstonWheatley`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "Towns":
+                axios.get(`http://localhost:5000/info/Towns`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "VasilyBorgov":
+                axios.get(`http://localhost:5000/info/VasilyBorgov`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "AliceHarmon":
+                axios.get(`http://localhost:5000/info/AliceHarmon`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "AnnettePacker":
+                axios.get(`http://localhost:5000/info/AnnettePacker`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+
+            case "AnyaTaylorJoy":
+                axios.get(`http://localhost:5000/info/AnyaTaylorJoy`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "ThomasBrodieSangster":
+                axios.get(`http://localhost:5000/info/ThomasBrodieSangster`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "HarryMelling":
+                axios.get(`http://localhost:5000/info/HarryMelling`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "MarielleHeller":
+                axios.get(`http://localhost:5000/info/MarielleHeller`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "WilliamCamp":
+                axios.get(`http://localhost:5000/info/WilliamCamp`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case  "MosesIngram":
+                axios.get(`http://localhost:5000/info/MosesIngram`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "ChristianeSeidel":
+                axios.get(`http://localhost:5000/info/ChristianeSeidel`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "PatrickKennedy":
+                axios.get(`http://localhost:5000/info/PatrickKennedy`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "JacobFortuneLloyd":
+                axios.get(`http://localhost:5000/info/JacobFortuneLloyd`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "MarcinDorociński":
+                axios.get(`http://localhost:5000/info/MarcinDorociński`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "ChloePirri":
+                axios.get(`http://localhost:5000/info/ChloePirri`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            case "EloiseWebb":
+                axios.get(`http://localhost:5000/info/EloiseWebb`)
+                .then(response => {
+                    console.log(response);
+                    this.setState({info:response.data});
+                 })
+                 .catch((error) => {
+                    console.log(error);
+                })
+                break;
+            
+        }
     }
 
     infosList(){
@@ -58,28 +294,95 @@ export default class Info extends Component {
 
     namesList(){
         return this.state.info.map(function(info, i){
-            window.IMGset = ElizabethHarmon;
-            if(info.nameRU == "Элизабет Хармон")
-            {
-                
+            switch(window.name){
+                case "ElizabethHarmon":
+                    window.IMGset = ElizabethHarmon;
+                    break;
+                case "BennyWatts":
+                    window.IMGset = BennyWatts;
+                    break;
+                case "HarryBeltik":
+                    window.IMGset = HarryBeltik;
+                    break;
+                case "AlmaWhittle":
+                    window.IMGset = AlmaWhittle;
+                    break;
+                case "mrScheibel":
+                    window.IMGset = mrScheibel;
+                    break;
+                case  "Jolene":
+                    window.IMGset = Jolene;
+                    break;
+                case "HelenDirdorrf":
+                    window.IMGset = HelenDirdorrf;
+                    break;
+                case "AllstonWheatley":
+                    window.IMGset = AllstonWheatley;
+                    break;
+                case "Towns":
+                    window.IMGset = Towns;
+                    break;
+                case "VasilyBorgov":
+                    window.IMGset = VasilyBorgov;
+                    break;
+                case "AliceHarmon":
+                    window.IMGset = AliceHarmon;
+                    break;
+                case "AnnettePacker":
+                    window.IMGset = AnnettePacker;
+                    break;
+
+                case "AnyaTaylorJoy":
+                    window.IMGset = AnyaTaylorJoy;
+                    break;
+                case "ThomasBrodieSangster":
+                    window.IMGset = ThomasBrodieSangster;
+                    break;
+                case "HarryMelling":
+                    window.IMGset = HarryMelling;
+                    break;
+                case "MarielleHeller":
+                    window.IMGset = MarielleHeller;
+                    break;
+                case "WilliamCamp":
+                    window.IMGset = WilliamCamp;
+                    break;
+                case  "MosesIngram":
+                    window.IMGset = MosesIngram;
+                    break;
+                case "ChristianeSeidel":
+                    window.IMGset = ChristianeSeidel;
+                    break;
+                case "PatrickKennedy":
+                    window.IMGset = PatrickKennedy;
+                    break;
+                case "JacobFortuneLloyd":
+                    window.IMGset = JacobFortuneLloyd;
+                    break;
+                case "MarcinDorociński":
+                    window.IMGset = MarcinDorociński;
+                    break;
+                case "ChloePirri":
+                    window.IMGset = ChloePirri;
+                    break;
+                case "EloiseWebb":
+                    window.IMGset = EloiseWebb;
+                    break;                
             }
             return <tr>
                 <td>{info.nameRU}</td>
             </tr>
         });
     }
-    start(){
-        window.name = localStorage.getItem('name');
-        document.getElementById("name").innerHTML = window.name;
-        localStorage.removeItem('name');
+     getName() {
+        window.IMGset = "";
+        window.name = localStorage.getItem('name')
     }
 
     render() {
         return (
             <div>
-                <script>
-	                start();
-	            </script>
+                 { this.getName()}
                 <nav class="menu">                  
                      <div class="wrapCap"><label class="labCap">The Queen’s Gambit Fan</label></div>
                     <ul>                        

@@ -66,16 +66,16 @@ export default class Characters extends Component {
                                         <img src = {AlmaWhittle} width = "280" height = "240" alt = "Альма Уитл" /> 
                                    </Link> 
                                    <br/> 
-                                   <p> < Link to = "/info" onClick = {() => this.setName("AlmaWhittle")} name = "AlmaWhittle" > Альма Уитл </Link></p >
+                                   <p> < Link to = "/info" onClick = {() => this.setName("AlmaWhittle")} name = "AlmaWhittle" > Альма Уитли </Link></p >
                               </td> 
                          </tr>  
                          <tr>
                               <td >
                                    <Link to = "/info" onClick = {() => this.setName("mrScheibel")} name = "mrScheibel" >
-                                        <img src = {mrScheibel} width = "280" height = "240" alt = "мистер Шейбел" /> 
+                                        <img src = {mrScheibel} width = "280" height = "240" alt = "Уильям Шейбл" /> 
                                    </Link> 
                                    <br/> 
-                                   <p > < Link to = "/info" onClick = {() => this.setName("mrScheibel")} name = "mrScheibel" > мистер Шейбел </Link></p >
+                                   <p > < Link to = "/info" onClick = {() => this.setName("mrScheibel")} name = "mrScheibel" > Уильям Шейбл </Link></p >
                               </td> 
                               <td>
                                    <Link to = "/info" onClick = {() => this.setName("Jolene")} name = "Jolene" >
@@ -86,10 +86,10 @@ export default class Characters extends Component {
                               </td> 
                               <td>
                                    <Link to = "/info" onClick = {() => this.setName("HelenDirdorrf")} name = "HelenDirdorrf" >
-                                        < img src = {HelenDirdorrf} width = "280" height = "240" alt = "Хелен Дирдоррф" /> 
+                                        < img src = {HelenDirdorrf} width = "280" height = "240" alt = "Хелен Дирдорф" /> 
                                    </Link> 
                                    <br/> 
-                                   <p > < Link to = "/info" onClick = {() => this.setName("HelenDirdorrf")} name = "HelenDirdorrf" > Хелен Дирдоррф </Link></p >
+                                   <p > < Link to = "/info" onClick = {() => this.setName("HelenDirdorrf")} name = "HelenDirdorrf" > Хелен Дирдорф </Link></p >
                               </td> 
                               <td>
                                    <Link to = "/info" onClick = {() => this.setName("AllstonWheatley")} name = "AllstonWheatley" >
@@ -102,10 +102,10 @@ export default class Characters extends Component {
                          <tr>
                               <td>
                                    <Link to = "/info" onClick = {() => this.setName("Towns")} name = "Towns" >
-                                        <img src = {Towns} width = "280" height = "240" alt = "Д. Л. Таунс" /> 
+                                        <img src = {Towns} width = "280" height = "240" alt = "Таунс" /> 
                                    </Link> 
                                    <br/>
-                                   <p> < Link to = "/info" onClick = {() => this.setName("Towns")} name = "Towns" > Д.Л.Таунс </Link></p >
+                                   <p> < Link to = "/info" onClick = {() => this.setName("Towns")} name = "Towns" > Таунс </Link></p >
                               </td>  
                               <td >
                                    <Link to = "/info" onClick = {() => this.setName("VasilyBorgov")} name = "VasilyBorgov" >
@@ -123,10 +123,10 @@ export default class Characters extends Component {
                               </td> 
                               <td >
                                    <Link to = "/info" onClick = {() => this.setName("AnnettePacker")} name = "AnnettePacker" >
-                                        <img src = {AnnettePacker} width = "280" height = "240" alt = "Аннетт Пакер" />  
+                                        <img src = {AnnettePacker} width = "280" height = "240" alt = "Аннет Пакер" />  
                                    </Link> 
                                    <br/>
-                                   <p> <Link to = "/info" onClick = {() => this.setName("AnnettePacker")} name = "AnnettePacker" > Аннетт Пакер </Link></p >
+                                   <p> <Link to = "/info" onClick = {() => this.setName("AnnettePacker")} name = "AnnettePacker" > Аннет Пакер </Link></p >
                               </td> 
                          </tr>  
                     </table> 

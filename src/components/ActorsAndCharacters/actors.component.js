@@ -71,17 +71,17 @@ export default class Actors extends Component {
                          <tr>
                               <td >
                                    <Link to = "/info" onClick = {() => this.setName("WilliamCamp")} name = "WilliamCamp" >
-                                        <img src = {WilliamCamp} width = "280" height = "240" alt = "Билл Кэмп" /> 
+                                        <img src = {WilliamCamp} width = "280" height = "240" alt = "Уильям Кэмп" /> 
                                    </Link> 
                                    <br/> 
-                                   <p > < Link to = "/info"onClick = {() => this.setName("WilliamCamp")} name = "WilliamCamp" > Билл Кэмп </Link></p >
+                                   <p > < Link to = "/info"onClick = {() => this.setName("WilliamCamp")} name = "WilliamCamp" > Уильям Кэмп </Link></p >
                               </td> 
                               <td>
                                    <Link to = "/info" onClick = {() => this.setName("MosesIngram")} name = "MosesIngram" >
-                                        < img src = {MosesIngram} width = "280" height = "240" alt = "Мозес Инграм" />
+                                        < img src = {MosesIngram} width = "280" height = "240" alt = "Моусес Ингрэм" />
                                     </Link>
                                     <br/> 
-                                   <p> < Link to = "/info" onClick = {() => this.setName("MosesIngramn")} name = "MosesIngram" >Мозес Инграм </Link></p >
+                                   <p> < Link to = "/info" onClick = {() => this.setName("MosesIngramn")} name = "MosesIngram" >Моусес Ингрэм </Link></p >
                               </td> 
                               <td>
                                    <Link to = "/info" onClick = {() => this.setName("ChristianeSeidel")} name = "ChristianeSeidel" >
