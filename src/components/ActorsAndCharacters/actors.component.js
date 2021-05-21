@@ -8,7 +8,7 @@ import ThomasBrodieSangster from "../../images/ThomasBrodieSangster.jpg";
 import HarryMelling from "../../images/HarryMelling.jpg";
 import MarielleHeller from "../../images/MarielleHeller.jpg";
 import WilliamCamp from "../../images/WilliamCamp.jpg";
-import MosesIngram from "../../images/MosesIngram.jpg";
+import MosesIngram from "../../images/MosesIngram.png";
 import ChristianeSeidel from "../../images/ChristianeSeidel.jpg";
 import PatrickKennedy from "../../images/PatrickKennedy.jpg";
 import JacobFortuneLloyd from "../../images/JacobFortuneLloyd.jpg";
@@ -42,7 +42,7 @@ export default class Actors extends Component {
                                          <img src = {AnyaTaylorJoy} width = "280" height = "240" alt = "Аня Тейлор-Джой" /> 
                                    </Link> 
                                     <br/>
-                                    <p> <Link to = "/info" onclick = "setCh(this.name)" name = "AnyaTaylorJoy" > Элизабет Хармон </Link></p>
+                                    <p> <Link to = "/info" onclick = "setCh(this.name)" name = "AnyaTaylorJoy" > Аня Тейлор-Джой </Link></p>
                               </td> 
                               <td>
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "ThomasBrodieSangster" >
