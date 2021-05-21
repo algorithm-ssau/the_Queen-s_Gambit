@@ -2,13 +2,13 @@ const router = require("express").Router();
 let Info = require('../models/info.model');
 
 router.route('/').get((req, res) => {
-    Info.find({"name":"ElizabethHarmon"})
+    Info.find()
         .then(info => res.json(info))
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/:id').get((req, res) => {
-    Info.findById(req.params.id)
+router.route('/:name').get((req, res) => {
+    Info.find({"name":req.params.name})
     .then(info => res.json(info))
     .catch(err => res.status(400).json('Error: ' + err));
 });

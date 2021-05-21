@@ -5,6 +5,30 @@ import "./info_style.css";
 import "../../styles/styleCap.css";
 
 import ElizabethHarmon from "../../images/ElizabethHarmon.jpg";
+import BennyWatts from "../../images/BennyWatts.jpg";
+import HarryBeltik from "../../images/HarryBeltik.jpg";
+import AlmaWhittle from "../../images/AlmaWhittle.jpg";
+import mrScheibel from "../../images/mrScheibel.png";
+import Jolene from "../../images/Jolene.jpg";
+import HelenDirdorrf from "../../images/HelenDirdorrf.jpg";
+import AllstonWheatley from "../../images/AllstonWheatley.png";
+import Towns from "../../images/Towns.png";
+import VasilyBorgov from "../../images/VasilyBorgov.jpg";
+import AliceHarmon from "../../images/AliceHarmon.jpg";
+import AnnettePacker from "../../images/AnnettePacker.jpg";
+
+import AnyaTaylorJoy from "../../images/AnyaTaylorJoy.jpg";
+import ThomasBrodieSangster from "../../images/ThomasBrodieSangster.jpg";
+import HarryMelling from "../../images/HarryMelling.jpg";
+import MarielleHeller from "../../images/MarielleHeller.jpg";
+import WilliamCamp from "../../images/WilliamCamp.jpg";
+import MosesIngram from "../../images/MosesIngram.png";
+import ChristianeSeidel from "../../images/ChristianeSeidel.jpg";
+import PatrickKennedy from "../../images/PatrickKennedy.jpg";
+import JacobFortuneLloyd from "../../images/JacobFortuneLloyd.jpg";
+import MarcinDorociński from "../../images/MarcinDorociński.jpg";
+import ChloePirri from "../../images/ChloePirri.jpg";
+import EloiseWebb from "../../images/EloiseWebb.jpg";
 
 import axios from "axios";
 
@@ -14,7 +38,7 @@ export default class Info extends Component {
         this.state = {info:[]};
     }
     componentDidMount(){
-        axios.get(`http://localhost:5000/info/`)
+        axios.get(`http://localhost:5000/info/ElizabethHarmon`)
         .then(response => {
             console.log(response);
             this.setState({info:response.data});
@@ -34,6 +58,11 @@ export default class Info extends Component {
 
     namesList(){
         return this.state.info.map(function(info, i){
+            window.IMGset = ElizabethHarmon;
+            if(info.nameRU == "Элизабет Хармон")
+            {
+                
+            }
             return <tr>
                 <td>{info.nameRU}</td>
             </tr>
@@ -46,7 +75,6 @@ export default class Info extends Component {
     }
 
     render() {
-        let IMGname = this.namesList();
         return (
             <div>
                 <script>
@@ -71,7 +99,7 @@ export default class Info extends Component {
                         <table >                                                        
                             <tr>
                                 <td>  
-                                    <p><img src = {ElizabethHarmon} alt="Актер/персонаж"  class="caption-border"></img></p>
+                                    <p><img src = {window.IMGset} alt="Актер/персонаж"  class="caption-border"></img></p>
                                 </td>
                                 <td>
                                     {this.infosList()}                               
