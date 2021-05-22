@@ -38,16 +38,3 @@ body{
 .p2{
     margin-bottom: 0;
 }
-th {
-    font-size: 13px;
-    font-weight: normal;
-    border-top: 4px solid #BDB76B;
-    border-bottom: 1px solid white;
-    padding: 8px;
-}
-
-td {
-    background: rgba(176, 140, 99, 0.8);
-    color: black;
-    padding: 8px;
-}
