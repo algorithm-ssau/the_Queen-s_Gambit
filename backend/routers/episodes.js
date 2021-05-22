@@ -1,7 +1,7 @@
-const router = require("express").Router;
+const router = require("express").Router();
 let Episode = require('../models/episodes.model');
 
-router.route('/').get((req, res) => {
+router.route('/getepisodes').get((req, res) => {
     Episode.find()
         .then(episodes => res.json(episodes))
         .catch(err => res.status(400).json('Error: ' + err));

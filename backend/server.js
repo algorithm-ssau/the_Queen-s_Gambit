@@ -2,10 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-require('dotenv').config;
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
@@ -22,11 +21,6 @@ connection.once('open', () => {
 
 const episodesRouter = require('./routers/episodes');
 const infoRouter = require('./routers/info');
-/*const actorsRouter = require('./routers/actors');*/
-
-/*app.use('/', mainRouter);
-app.use('/actors', actorsRouter);
-app.use('/characters', charactersRouter);*/
 app.use('/info', infoRouter);
 app.use('/episodes', episodesRouter);
 

@@ -8,10 +8,6 @@ app.config[
 mongo = PyMongo(app)
 
 
-@app.route("/", methods=['GET'])
-def home():
-    return "Server PY"
-
 
 @app.route("/episodes", methods=['GET'])
 def get_episodes():
