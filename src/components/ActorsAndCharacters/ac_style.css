@@ -22,7 +22,7 @@ body {
 }
 
 .tbl table {
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .tbl th {
@@ -43,11 +43,13 @@ body {
 .tbl a {
     color: #1a1513;
     text-decoration: none;
+    
     font-weight: bold;
 }
 
 .tbl p {
     text-align: center;
+    margin-left: -10%;
 }
 
 .tbl label {
