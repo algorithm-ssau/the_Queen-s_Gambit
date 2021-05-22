@@ -1,5 +1,7 @@
-const mongoose = require("mongoose")
+import { Link } from 'react-router-dom';
 
+
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const edisodeSchema = new Schema({

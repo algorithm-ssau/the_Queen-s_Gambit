@@ -1,4 +1,4 @@
-const router = require("express").Router();
+const router = require("express").Router;
 let Episode = require('../models/episodes.model');
 
 router.route('/').get((req, res) => {
@@ -6,6 +6,7 @@ router.route('/').get((req, res) => {
         .then(episodes => res.json(episodes))
         .catch(err => res.status(400).json('Error: ' + err));
 });
+
 
 router.route('/add').post((req, res) => {
     const number = Number(req.body.number);
