@@ -16,6 +16,10 @@ import AliceHarmon from "../../images/AliceHarmon.jpg";
 import AnnettePacker from "../../images/AnnettePacker.jpg";
 
 export default class Characters extends Component {
+     setName(name) {
+          localStorage.setItem('name', name)
+      } 
+      
     render() {
         return ( 
              <div>
@@ -37,70 +41,106 @@ export default class Characters extends Component {
                  <table>
                         <tr>
                              <td>
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "ElizabethHarmon" >
 
                                          <img src = {ElizabethHarmon} width = "280" height = "240" alt = "Элизабет Хармон" /> 
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("ElizabethHarmon")} name = "ElizabethHarmon" >
+                                         <img src = {ElizabethHarmon} width = "260" height = "260" alt = "Элизабет Хармон" /> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                    </Link> 
                                     <br/>
-                                    <p> <Link to = "/info" onclick = "setCh(this.name)" name = "ElizabethHarmon" > Элизабет Хармон </Link></p>
+                                    <p> <Link to = "/info" onClick = {() => this.setName("ElizabethHarmon")} name = "ElizabethHarmon" > Элизабет Хармон </Link></p>
                               </td> 
                               <td>
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "BennyWatts" >
 
                                         < img src = {BennyWatts} width = "280" height = "240" alt = "Бенни Уоттс"/> 
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("BennyWatts")} name = "BennyWatts" >
+                                        < img src = {BennyWatts} width = "260" height = "260" alt = "Бенни Уоттс"/> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                    </Link> 
                                    <br/> 
-                                   <p > < Link to = "/info" onclick = "setCh(this.name)" name = "BennyWatts" > Бенни Уоттс </Link></p >
+                                   <p > < Link to = "/info" onClick = {() => this.setName("BennyWatts")} name = "BennyWatts" > Бенни Уоттс </Link></p >
                               </td> 
                               <td>
+<<<<<<< HEAD
                                     <Link to = "/info" onclick = "setCh(this.name)" name = "HarryBeltik" >
 
                                          <img src = {HarryBeltik} width = "280" height = "240" alt = "Гарри Белтик"/> 
 
+=======
+                                    <Link to = "/info" onClick = {() => this.setName("HarryBeltik")} name = "HarryBeltik" >
+                                         <img src = {HarryBeltik} width = "260" height = "260" alt = "Гарри Белтик"/> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                     </Link> 
                                    <br/> 
-                                   <p> < Link to = "/info" onclick = "setCh(this.name)" name = "HarryBeltik" > Гарри Белтик </Link></p>
+                                   <p> < Link to = "/info" onClick = {() => this.setName("HarryBeltik")} name = "HarryBeltik" > Гарри Белтик </Link></p>
                               </td> 
                               <td>
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AlmaWhittle" >
                                         <img src = {AlmaWhittle} width = "280" height = "240" alt = "Альма Уитл" /> 
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("AlmaWhittle")} name = "AlmaWhittle" >
+                                        <img src = {AlmaWhittle} width = "260" height = "260" alt = "Альма Уитл" /> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                    </Link> 
                                    <br/> 
-                                   <p> < Link to = "/info" onclick = "setCh(this.name)" name = "AlmaWhittle" > Альма Уитл </Link></p >
+                                   <p> < Link to = "/info" onClick = {() => this.setName("AlmaWhittle")} name = "AlmaWhittle" > Альма Уитли </Link></p >
                               </td> 
                          </tr>  
                          <tr>
                               <td >
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "mrScheibel" >
 
                                         <img src = {mrScheibel} width = "280" height = "240" alt = "мистер Шейбел" /> 
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("mrScheibel")} name = "mrScheibel" >
+                                        <img src = {mrScheibel} width = "260" height = "260" alt = "Уильям Шейбл" /> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                    </Link> 
                                    <br/> 
-                                   <p > < Link to = "/info" onclick = "setCh(this.name)" name = "mrScheibel" > мистер Шейбел </Link></p >
+                                   <p > < Link to = "/info" onClick = {() => this.setName("mrScheibel")} name = "mrScheibel" > Уильям Шейбл </Link></p >
                               </td> 
                               <td>
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "Jolene" >
 
                                         <img src = {Jolene} width = "280" height = "240" alt = "Джолин" />
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("Jolene")} name = "Jolene" >
+                                        < img src = {Jolene} width = "260" height = "260" alt = "Джолин" />
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                     </Link>
                                     <br/> 
-                                   <p> < Link to = "/info" onclick = "setCh(this.name)" name = "Jolene" > Джолин </Link></p >
+                                   <p> < Link to = "/info" onClick = {() => this.setName("Jolene")} name = "Jolene" > Джолин </Link></p >
                               </td> 
                               <td>
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "HelenDirdorrf" >
 
                                         < img src = {HelenDirdorrf} width = "280" height = "240" alt = "Хелен Дирдоррф" /> 
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("HelenDirdorrf")} name = "HelenDirdorrf" >
+                                        < img src = {HelenDirdorrf} width = "260" height = "260" alt = "Хелен Дирдорф" /> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                    </Link> 
                                    <br/> 
-                                   <p > < Link to = "/info" onclick = "setCh(this.name)" name = "HelenDirdorrf" > Хелен Дирдоррф </Link></p >
+                                   <p > < Link to = "/info" onClick = {() => this.setName("HelenDirdorrf")} name = "HelenDirdorrf" > Хелен Дирдорф </Link></p >
                               </td> 
                               <td>
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AllstonWheatley" >
 
                                          <img src = {AllstonWheatley} width = "280" height = "240" alt = "Олстон Уитли" /> 
@@ -108,10 +148,18 @@ export default class Characters extends Component {
                                    <br/>  
 
                                    <p> < Link to = "/info" onclick = "setCh(this.name)" name = "AllstonWheatley" > Олстон Уитли </Link></p >
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("AllstonWheatley")} name = "AllstonWheatley" >
+                                         <img src = {AllstonWheatley} width = "260" height = "260" alt = "Олстон Уитли" /> 
+                                   </Link> 
+                                   <br/>  
+                                   <p> < Link to = "/info" onClick = {() => this.setName("AllstonWheatley")} name = "AllstonWheatley" > Олстон Уитли </Link></p >
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                </td> 
                           </tr>  
                          <tr>
                               <td>
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "Towns" >
 
                                         <img src = {Towns} width = "280" height = "240" alt = "Д. Л. Таунс" /> 
@@ -125,19 +173,36 @@ export default class Characters extends Component {
 
                                         <img src = {VasilyBorgov} width = "280" height = "240" alt = "Василий Боргов" /> 
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("Towns")} name = "Towns" >
+                                        <img src = {Towns} width = "260" height = "260" alt = "Таунс" /> 
+                                   </Link> 
+                                   <br/>
+                                   <p> < Link to = "/info" onClick = {() => this.setName("Towns")} name = "Towns" > Таунс </Link></p >
+                              </td>  
+                              <td >
+                                   <Link to = "/info" onClick = {() => this.setName("VasilyBorgov")} name = "VasilyBorgov" >
+                                        <img src = {VasilyBorgov} width = "260" height = "260" alt = "Василий Боргов" /> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                    </Link>
                                    <br/> 
-                                   <p> < Link to = "/info" onclick = "setCh(this.name)" name = "VasilyBorgov" > Василий Боргов </Link></p >
+                                   <p> < Link to = "/info" onClick = {() => this.setName("VasilyBorgov")} name = "VasilyBorgov" > Василий Боргов </Link></p >
                               </td> 
                               <td >
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AliceHarmon" >
                                         <img src = {AliceHarmon} width = "280"height = "240" alt = "Элис Хармон" />
 
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("AliceHarmon")} name = "AliceHarmon" >
+                                        <img src = {AliceHarmon} width = "260"height = "260" alt = "Элис Хармон" />
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                                    </Link> 
                                    <br/> 
-                                   <p> < Link to = "/info" onclick = "setCh(this.name)" name = "AliceHarmon" > Элис Хармон </Link></p >
+                                   <p> < Link to = "/info" onClick = {() => this.setName("AliceHarmon")} name = "AliceHarmon" > Элис Хармон </Link></p >
                               </td> 
                               <td >
+<<<<<<< HEAD
                                    <Link to = "/info" onclick = "setCh(this.name)" name = "AnnettePacker" >
 
                                         <img src = {AnnettePacker} width = "280" height = "240" alt = "Аннетт Пакер" />  
@@ -145,17 +210,30 @@ export default class Characters extends Component {
                                    <br/>
 
                                    <p> <Link to = "/info" onclick = "setCh(this.name)" name = "AnnettePacker" > Аннетт Пакер </Link></p >
+=======
+                                   <Link to = "/info" onClick = {() => this.setName("AnnettePacker")} name = "AnnettePacker" >
+                                        <img src = {AnnettePacker} width = "260" height = "260" alt = "Аннет Пакер" />  
+                                   </Link> 
+                                   <br/>
+                                   <p> <Link to = "/info" onClick = {() => this.setName("AnnettePacker")} name = "AnnettePacker" > Аннет Пакер </Link></p >
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                               </td> 
                          </tr>  
                     </table> 
                     <script >
+<<<<<<< HEAD
                          function setCh(name) {
                              localStorage.setItem('name', window.name)
                          } 
                     </script>
+=======
+                        
+                    </script> 
+>>>>>>> 6d5f0cff06608790e95e92be884a3762aa22d80a
                </div>
           </div>
 
         );
     }
 }
+
