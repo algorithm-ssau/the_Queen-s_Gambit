@@ -44,7 +44,7 @@ export default class Actors extends Component {
                                          <img src = {AnyaTaylorJoy} width = "280" height = "240" alt = "Аня Тейлор-Джой" /> 
                                    </Link> 
                                     <br/>
-                                    <p> <Link to = "/info" onClick = {() => this.setName("AnyaTaylorJoy")} name = "AnyaTaylorJoy" > Элизабет Хармон </Link></p>
+                                    <p> <Link to = "/info" onClick = {() => this.setName("AnyaTaylorJoy")} name = "AnyaTaylorJoy" > Аня Тейлор-Джой </Link></p>
                               </td> 
                               <td>
                                    <Link to = "/info" onClick = {() => this.setName("ThomasBrodieSangster")} name = "ThomasBrodieSangster" >
