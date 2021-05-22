@@ -6,7 +6,7 @@ body{
     font-family: Open-sans, sans-serif;
 }
 .content{
-    background-color: rgba(252, 230, 218, 56%);
+    background-color: rgba(252, 230, 218, 0.733);
     margin: 5% 10% 3% ;
 }
 .content_wrapper{

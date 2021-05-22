@@ -10,15 +10,19 @@ body {
     color: #333;
     /* Цвет основного текста */
 }
+.content{
+    background-color: rgba(252, 230, 218, 0.733);
+    margin: 5% 10% 3% ;
+}
 
 .tbl div {
     margin-left: 10%;
     margin-right: 10%;
-    background: rgba(176, 140, 99, 0.7);
+    background-color: rgba(252, 230, 218, 0.733);
 }
 
 .tbl table {
-    margin-left: 12%;
+    margin-left: 10%;
 }
 
 .tbl th {
@@ -31,9 +35,9 @@ body {
 }
 
 .tbl td {
-    background: rgba(176, 140, 99, 0.8);
     color: #669;
     padding: 16px;
+    background-color: rgba(252, 230, 218, 0.733);
 }
 
 .tbl a {
@@ -47,7 +51,8 @@ body {
 }
 
 .tbl label {
-    color: #1a1513;
+    color: rgba(252, 230, 218, 0.925);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: 'Impact', fantasy;
     font-size: 45pt;
     margin-left: 15%;
